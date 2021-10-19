@@ -1,7 +1,7 @@
 <template>
   <div class="page page-login">
     <div class="login-page-inner">
-      <p class="title">Quark H5</p>
+      <p class="title">FreeDesigh</p>
       <el-form :model="formData" :rules="formRules" ref="loginForm" label-width="0px">
         <el-form-item prop="username">
           <el-input v-model="formData.username" name="userName" placeholder="请输入用户名" @keyup.enter.native="doLogin">
@@ -39,7 +39,7 @@
           <span>{{type === 'login' ? '立即注册' : '马上登录'}}</span>
         </p>
       </div>
-      <p class="login-page-bottom">Copyright © 2020 <span class="primary">Quark H5版权所有</span></p>
+      <p class="login-page-bottom">Copyright © 2020 <span class="primary">FreeDesigh版权所有</span></p>
     </div>
     <div class="login-background">
       <loginBackground />

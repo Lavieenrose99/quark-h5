@@ -1699,7 +1699,7 @@ module.exports = Object.getPrototypeOf || function (O) {
  * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
  * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
  */
-;(function() {
+(function() {
 
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
@@ -22832,7 +22832,7 @@ module.exports = function (O, D) {
 /***/ "f355":
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"port\":\"4000\",\"adminAccount\":\"admin\",\"db\":{\"servername\":\"localhost\",\"DATABASE\":\"admin\",\"port\":27017,\"user\":\"\",\"pass\":\"\",\"authSource\":\"admin\"},\"baseURL\":\"http://localhost:4000\"}");
+module.exports = JSON.parse("{\"port\":\"4000\",\"adminAccount\":\"admin\",\"db\":{\"servername\":\"localhost\",\"DATABASE\":\"admin\",\"port\":27017,\"user\":\"\",\"pass\":\"\",\"authSource\":\"admin\"},\"baseURL\":\"http://39.97.3.27:4000\"}");
 
 /***/ }),
 
@@ -23199,7 +23199,7 @@ function _objectSpread(target) {
 
 var configDict = {
   development: {
-    baseURL: 'http://localhost:4000'
+    baseURL: 'http://39.97.3.27:4000'
   },
   production: {
     baseURL: config_0.baseURL

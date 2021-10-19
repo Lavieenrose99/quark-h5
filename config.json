@@ -9,5 +9,5 @@
     "pass": "",
     "authSource": ""
   },
-  "baseURL": ""
+  "baseURL": "http://39.97.3.27:4000"
 }

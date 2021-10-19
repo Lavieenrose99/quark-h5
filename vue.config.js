@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2021-10-19 20:24:09
+ * @LastEditTime: 2021-10-19 22:29:13
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: /freedes/vue.config.js
+ */
 const path = require('path')
 const fs = require('fs')
 
@@ -5,7 +13,7 @@ const fs = require('fs')
 let devServer = {
 	proxy: { // 代理
 		'/': {
-			target: 'http://localhost:4000',//设置你调用的接口域名和端口号 别忘了加http
+			target: 'http://39.97.3.27:4000',//设置你调用的接口域名和端口号 别忘了加http
 			ws: false,
 			changeOrigin: true,               // needed for virtual hosted sites
 			pathRewrite: {},

@@ -14,7 +14,7 @@
 ## 技术栈
 **前端：**<br/>
 `vue`: 模块化开发少不了angular，react，vue三选一，这里选择了vue。<br/>
-`vuex`: 状态管理<br/>
+`vuex`: 状态管理而<br/>
 `sass`: css预编译器。<br/>
 `element-ui`：不造轮子，有现成的优秀的vue组件库当然要用起来。没有的自己再封装一些就可以了。<br/>
 `loadsh`：工具类<br/>

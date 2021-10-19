@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2021-10-19 20:24:09
+ * @LastEditTime: 2021-10-19 22:39:59
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /freedes/client/config/index.js
+ */
 /**
  * 公共配置文件
  */
@@ -6,7 +14,7 @@ import $config from '../../config'
 
 const configDict = {
 	development: {
-		baseURL: 'http://localhost:4000'
+		baseURL: 'http://39.97.3.27:4000'
 	},
 	production: {
 		baseURL: $config.baseURL

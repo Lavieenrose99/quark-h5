@@ -90,7 +90,7 @@
 		data() {
 			return {
 				loading: false,
-				defaultCoverImage: require('@/common/images/quark--pagecover-image.png'),
+				defaultCoverImage: require('@/common/images/logo.png'),
 				operationDataList: [{
 					title: '发布',
 					eventType: 'publish',
