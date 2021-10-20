@@ -42,7 +42,9 @@
 			 * @param item
 			 */
 			handleClick(item) {
+        console.log(2222,item)
 				let props = this.getComponentProps(item.elName);
+        console.log(props,3333)
 				this.$store.dispatch('addElement', {...item, needProps: props})
 			},
 			/**
@@ -61,8 +63,10 @@
 
 				let props = {}
 				for (let key in elComponentData.props) {
+          
 					props[key] = [Object, Array].includes(elComponentData.props[key].type) ? elComponentData.props[key].default() : elComponentData.props[key].default
 				}
+      console.log(props,1232)
 				return props;
 			},
 		}

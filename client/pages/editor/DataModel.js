@@ -57,7 +57,7 @@ let pageConfig = {
 let projectConfig = {
 	name: '',
 	title: '未命名场景',
-	description: '我用夸克可视化编辑器做了一个超酷炫的H5，快来看看吧。',
+	description: '我用FreeDesign，快来看看吧。',
 	coverImage: '',
 	auther: '',
 	script: '',
@@ -133,9 +133,9 @@ let getProjectConfig = function () {
  * @param scalePoint 缩放比例
  */
 let getCommonStyle = function (styleObj, scalingRatio = 1) {
+	console.log('check',scalingRatio)
 	let needUnitStr = ['width', 'height','top', 'left', 'paddingTop', 'paddingLeft', 'paddingRight', 'paddingBottom', 'marginTop', 'marginLeft', 'marginRight', 'marginBottom', 'borderWidth','fontSize', 'borderRadius', 'letterSpacing']
 	let style ={}
-
 	for (let key in styleObj){
 		if(needUnitStr.includes(key)){
 			style[key] = (styleObj[key] * scalingRatio) + 'px'

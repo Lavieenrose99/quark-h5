@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2021-10-11 18:47:12
+ * @LastEditTime: 2021-10-14 01:46:49
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /quark-h5/client/plugins/index.js
+ */
 /**
  * 组件库入口
  * */

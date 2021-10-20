@@ -1,10 +1,10 @@
 /*
  * @Author: your name
- * @Date: 2021-10-19 20:24:09
- * @LastEditTime: 2021-10-19 22:29:13
- * @LastEditors: your name
+ * @Date: 2021-10-11 18:47:13
+ * @LastEditTime: 2021-10-19 22:31:33
+ * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /freedes/vue.config.js
+ * @FilePath: /quark-h5/vue.config.js
  */
 const path = require('path')
 const fs = require('fs')

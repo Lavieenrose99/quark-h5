@@ -129,6 +129,7 @@ const actions = {
 	addElement({commit}, elData){
 		let activePage = getters.activePage(state)
 		let data = editorProjectConfig.getElementConfig(elData, {zIndex: activePage.elements.length + 1})
+		console.log(data,444)
 		commit('addElement', data);
 		commit('setActiveElementUUID', data.uuid)
 		commit('addHistoryCache')
@@ -321,6 +322,7 @@ const mutations = {
 	 */
 	addElement(state, elData){
 		let index = state.projectData.pages.findIndex(v => {return v.uuid === state.activePageUUID})
+		console.log(elData,555,state.projectData.pages[index].elements)
 		state.projectData.pages[index].elements.push(elData);
 	},
 	/**

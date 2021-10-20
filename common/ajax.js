@@ -1,14 +1,6 @@
-/*
- * @Author: your name
- * @Date: 2021-10-19 20:24:09
- * @LastEditTime: 2021-10-19 22:06:47
- * @LastEditors: your name
- * @Description: In User Settings Edit
- * @FilePath: /freedes/common/ajax.js
- */
 /**
  * http请求封装
- * @param opt fsfsdfs
+ * @param opt
  */
 /*-------------------Ajax start--------------------*/
 

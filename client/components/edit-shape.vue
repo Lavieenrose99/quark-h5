@@ -8,6 +8,7 @@
           @mousedown="handleMouseDownOnElement"
           :class="{active: this.active}"
   >
+  <!-- 点选择器 -->
     <div
             class="edit-shape-point"
             v-for="item in (active ? pointList : [])"
@@ -142,6 +143,7 @@
 				let up = () => {
 					lastTime = new Date().getTime();
 					if( (lastTime - firstTime) > 200){
+						console.log(12324)
 						this.$emit('resize')
 					}
 					document.removeEventListener('mousemove', move, true)
@@ -203,7 +205,7 @@
     width: 10px;
     height: 10px;
     background-color: #fff;
-    border: 1px solid #59c7f9;
+    border: 1px solid #1181b4;
     border-radius: 10px;
     position: absolute;
     z-index: 1001;

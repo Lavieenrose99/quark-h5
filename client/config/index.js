@@ -1,10 +1,10 @@
 /*
  * @Author: your name
- * @Date: 2021-10-19 20:24:09
- * @LastEditTime: 2021-10-19 23:03:53
+ * @Date: 2021-10-11 18:47:12
+ * @LastEditTime: 2021-10-19 22:35:11
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /freedes/client/config/index.js
+ * @FilePath: /quark-h5/client/config/index.js
  */
 /**
  * 公共配置文件
@@ -17,7 +17,7 @@ const configDict = {
 		baseURL: 'http://39.97.3.27:4000'
 	},
 	production: {
-		baseURL: 'http://39.97.3.27:4000'
+		baseURL: $config.baseURL
 	}
 }
 
