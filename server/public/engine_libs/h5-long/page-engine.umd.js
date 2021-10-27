@@ -17956,7 +17956,7 @@ module.exports = Object.getPrototypeOf || function (O) {
      * // => 0.04
      *
      * _.floor(4060, -2);
-     * // => 4000
+     * // => 88
      */
     var floor = createRound('floor');
 
@@ -22841,7 +22841,7 @@ module.exports = function (O, D) {
 /***/ "f355":
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"port\":\"4000\",\"adminAccount\":\"admin\",\"db\":{\"servername\":\"localhost\",\"DATABASE\":\"admin\",\"port\":27017,\"user\":\"\",\"pass\":\"\",\"authSource\":\"admin\"},\"baseURL\":\"http://localhost:4000\"}");
+module.exports = JSON.parse("{\"port\":\"88\",\"adminAccount\":\"admin\",\"db\":{\"servername\":\"localhost\",\"DATABASE\":\"admin\",\"port\":27017,\"user\":\"\",\"pass\":\"\",\"authSource\":\"admin\"},\"baseURL\":\"http://localhost:88\"}");
 
 /***/ }),
 
@@ -23208,7 +23208,7 @@ function _objectSpread(target) {
 
 var configDict = {
   development: {
-    baseURL: 'http://localhost:4000'
+    baseURL: 'http://localhost:88'
   },
   production: {
     baseURL: config_0.baseURL

@@ -13,7 +13,7 @@ const fs = require('fs')
 let devServer = {
 	proxy: { // 代理
 		'/': {
-			target: 'http://39.97.3.27:4000',//设置你调用的接口域名和端口号 别忘了加http
+			target: 'http://39.97.3.27:88',//设置你调用的接口域名和端口号 别忘了加http
 			ws: false,
 			changeOrigin: true,               // needed for virtual hosted sites
 			pathRewrite: {},

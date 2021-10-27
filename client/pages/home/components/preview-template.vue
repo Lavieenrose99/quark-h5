@@ -8,7 +8,7 @@
         </el-form-item>
         <el-form-item label="页面链接:">
           <div><el-button type="primary" @click="doCopy">复制链接</el-button></div>
-          <div class="share-wx-config-wrapper">{{'http://39.97.3.27:4000/' + '/quark/view/' + pageId}}</div>
+          <div class="share-wx-config-wrapper">{{'http://39.97.3.27:88/' + '/quark/view/' + pageId}}</div>
         </el-form-item>
         <!--页面效果-->
         <el-form-item label="页面信息:">
@@ -60,7 +60,7 @@
 		},
 		computed: {
 			pageLink(){
-				return 'http://39.97.3.27:4000' + '/quark/view/' + this.pageId
+				return 'http://39.97.3.27:88' + '/quark/view/' + this.pageId
 			},
 			shareData(){
 				if(!this.pageData.shareConfig){

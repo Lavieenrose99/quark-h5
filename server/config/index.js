@@ -1,5 +1,5 @@
 module.exports = {
-	port: 4000,
+	port: 88,
 	mongodb: {
 		url: 'mongodb://localhost:27017/quark',
 		options: {}
