@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-10-11 18:47:12
- * @LastEditTime: 2021-10-20 17:31:32
+ * @LastEditTime: 2021-10-27 16:34:20
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /quark-h5/client/config/index.js
@@ -14,10 +14,10 @@ import $config from '../../config'
 
 const configDict = {
 	development: {
-		baseURL: 'http://39.97.3.27:88'
+		baseURL: 'http://39.97.3.27:4000'
 	},
 	production: {
-		baseURL: 'http://39.97.3.27:88'
+		baseURL: 'http://39.97.3.27:4000'
 	}
 }
 

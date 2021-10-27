@@ -8,6 +8,8 @@
     "dev": "npm run dev-client",
     "build-client": "vue-cli-service build",
     "start": "pm2 start server/app.js",
+    "deploy:test": "npm run build && cross-env NODE_ENV=test node ./deploy",
+    "deploy:prod": "npm run build && cross-env NODE_ENV=prod node ./deploy",
     "lib:h5-swiper": "vue-cli-service build --target lib --name page-engine --dest server/public/engine_libs/h5-swiper engine-template/engine-h5-swiper/index.js"
   },
   "dependencies": {
@@ -70,6 +72,7 @@
     "psd": "^3.2.0",
     "pug": "^2.0.3",
     "sass-loader": "^7.1.0",
+    "scp2": "^0.5.0",
     "vue-template-compiler": "^2.6.10"
   }
 }
