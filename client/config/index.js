@@ -14,10 +14,10 @@ import $config from '../../config'
 
 const configDict = {
 	development: {
-		baseURL: 'http://39.97.3.27:4000'
+		baseURL: 'http://39.97.3.27:89'
 	},
 	production: {
-		baseURL: 'http://39.97.3.27:4000'
+		baseURL: 'http://39.97.3.27:89'
 	}
 }
 
