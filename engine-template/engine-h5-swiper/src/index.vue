@@ -89,6 +89,9 @@
 </script>
 
 <style scoped>
+body{
+	margin: 0;
+}
   .engine-template-wrapper {
     position: relative;
     width: 100%;

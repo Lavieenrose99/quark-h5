@@ -7,7 +7,7 @@
  * @FilePath: /freedes/server/config/index.js
  */
 module.exports = {
-	port: 89,
+	port: 4000,
 	mongodb: {
 		url: 'mongodb://localhost:27017/quark',
 		options: {}
