@@ -17,7 +17,7 @@ const configDict = {
 		baseURL: 'http://175.178.86.231:4000'
 	},
 	production: {
-		baseURL: 'http://39.97.3.27:4000'
+		baseURL: 'http://175.178.86.231:4000'
 	}
 }
 
