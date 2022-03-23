@@ -87,6 +87,10 @@
 				this.hasLoadData = true;
 				this.$API.getMyImages().then(res => {
 					this.imageList = res.body || [];
+					this.imageList.forEach((item)=>{
+						item.url = 'http://175.178.86.231:4000' + item.url
+						console.log(item)
+					})
 				})
 			},
 			/**

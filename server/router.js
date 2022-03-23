@@ -20,7 +20,7 @@ module.exports = app => {
 	router.post('/quark/page/setTemplate', $middleware.auth, $controller.page.setTemplate);
 	router.get('/quark/page/detail', $middleware.auth, $controller.page.pageDetail);
 	// 页面渲染
-	router.get('/quark/view/:_id', $controller.page.view);
+	router.get('/quark/view/', $controller.page.view);
 
 
 	// 页面协作
